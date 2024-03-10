@@ -6,7 +6,7 @@ body {
     align-items: center;
 }
 
-.card {
+.qr-code {
     width: 300px;
     height: 450px;
     padding: 15px;
@@ -14,42 +14,26 @@ body {
     border-radius: 20px;
     font-family: sans-serif;
     box-sizing: border-box;
-    display: flex;
-    justify-content: center;
 }
 
-.heading {
+.qr-code img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.qr-code-heading {
     color: rgb(44 58 80);
     font-weight: 800;
     font-size: 18px;
 }
 
-.text {
+.qr-code-text {
     text-align: center;
     font-size: 14px;
     line-height: 1.2;
     padding: 15px;
 }
 
-.text ul {
-    padding: 0;
-}
-
-.text li {
-    color: black;
-    list-style: none;
-    background-color: rgb(44 125 250);
-    padding: 10px;
-    border-radius: 20px;
-    margin-bottom: 10px;
-}
-
-.text a {
-    text-decoration: none;
-    display: inline-block;
-    width: 100%;
-}
-
-.text a:visited {
-    color: black;
+.qr-code-text p {
+    color: rgb(128 133 142);
 }
